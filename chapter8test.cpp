@@ -1,0 +1,1 @@
+1) A ________ algorithm is a method of locating a specific item of information in a larger collection of data.A) sortB) searchC) standardD) linearE) None of theseAnswer:  B
