@@ -1,0 +1,298 @@
+1) To test whether a character is a numeric digit character, use this function.
+A) isnumber
+B) notAlpha
+C) isnumeric
+D) isdigit
+E) None of these
+Answer:  D
+
+2) To test whether a character is a printable character, use this function.
+A) isprint
+B) isprintable
+C) isprintok
+D) isoktoprint
+E) None of these
+Answer:  A
+
+3) This is the escape sequence representing the null terminator.
+A) \n
+B) \t
+C) \0
+D) nullptr
+E) None of these
+Answer:  C
+
+4) The null terminator stands for this ASCII code.
+A) 57
+B) 100
+C) 1000
+D) 0
+E) None of these
+Answer:  D
+
+5) This function accepts a pointer to a C-string as an argument, and it returns the length of the C-string (not including the null terminator).
+A) numchar
+B) strlength
+C) strlen
+D) countstring
+E) None of these
+Answer:  C
+ 
+6) The strcpy function's arguments are:
+A) two C-strings
+B) two addresses
+C) three pointers
+D) one array and one pointer
+E) None of these
+Answer:  B
+
+7) A library function that can find one C- string inside another is:
+A) strcmp
+B) strstr
+C) strfind
+D) strsearch
+E) None of these
+Answer:  B
+
+8) This function accepts a C-string as an argument and converts the string to a long integer.
+A) atol
+B) strlong
+C) strtolong
+D) stringlong
+E) None of these
+Answer:  A
+
+9) This function converts a C-string to an integer and returns the integer value.
+A) atoint
+B) strtoint
+C) strint
+D) atoi
+E) None of these
+Answer:  D
+
+10) Which statement converts the string "10" to the integer value 10?
+A) itoa("ten")
+B) atoi("ten")
+C) atoi("10")
+D) itoa(10)
+E) None of these
+Answer:  C
+
+11) This function will return true if its argument is a printable character other than a digit, letter, or space.
+A) isprint
+B) ispunct
+C) ischar
+D) isnotdls
+E) None of these
+Answer:  B
+12) The C-string company[12] can hold ________.
+A) twelve characters
+B) thirteen characters
+C) eleven characters and the null terminator
+D) twelve characters and the null terminator
+E) None of the above
+Answer:  C
+
+13) Look at the following statement.
+
+	if (!isdigit(var1))
+
+The expression being tested by this statement will evaluate to true if var1 is:
+A) an alphabetic character
+B) 9
+C) a symbol such as $ or &
+D) both A and C
+E) None of these
+Answer:  D
+
+14) "Whitespace" encompasses which of the following?
+A) tab
+B) newline
+C) space
+D) All of these
+E) None of these
+Answer:  D
+
+15) A practical application of this function is to allow a user to enter a response of 'y' or 'Y' to a prompt.
+A) tolower
+B) toupper
+C) A or B
+D) ignorecase
+E) None of these
+Answer:  C
+
+16) This function accepts a C-string containing a number as its argument and returns the integer equivalent.
+A) strToInt
+B) itoa
+C) atoi
+D) int_from
+E) None of these
+Answer:  C
+ 
+17) To determine whether a character entered is a letter of the alphabet, use this function.
+A) isdigit
+B) fromkeyboard
+C) alphaok
+D) isalpha
+E) None of these
+Answer:  D
+
+18) To determine whether a character is whitespace, use this function.
+A) iswhite
+B) isspace
+C) iswhitespace
+D) isblank
+E) None of these
+Answer:  B
+
+19) To change a character argument from lower to upper case, use this function.
+A) isupper
+B) toupper
+C) tolarge
+D) fromlower
+E) None of these
+Answer:  B
+
+20) What is the output of the following statement?
+
+	cout << tolower(toupper('Z')) << endl; 
+
+A) upper case Z
+B) lower case z
+C) a lower case z followed by an upper case Z
+D) a compiler error
+E) None of these
+Answer:  B
+
+21) In C++, a C-string is a sequence of characters stored in consecutive memory, terminated by a ________.
+A) period
+B) space
+C) null character
+D) semicolon
+E) None of these
+Answer:  C
+
+ 
+22) To use the strlen function in a program, you must also write #include ________.
+A) <strlen>
+B) <iostring>
+C) <cstring>
+D) <stringlib>
+E) None of these
+Answer:  C
+23) This function concatenates the contents of one C-string with another C-string.
+A) strcopy
+B) strappend
+C) strcat
+D) stradd
+E) None of these
+Answer:  C
+
+24) This function accepts pointers to two C-strings and an integer argument, which indicates how many characters to copy from the second C-string to the first.
+A) strcpy
+B) strncpy
+C) copystring
+D) strintcpy
+E) None of these
+Answer:  B
+
+25) After the following statement executes, what value is stored in the variable num?
+
+	num = atoi("1000");
+
+A) 1000
+B) 999 (1000 minus 1 for the null terminator)
+C) "1000"
+D) "thousand"
+E) None of these
+Answer:  A
+
+26) To change a lower case character to an upper case character, use this function.
+A) atoi
+B) itoa
+C) ltou
+D) toupper
+E) None of these
+Answer:  D
+
+ 
+27) This library function reverses the order of a C-string.
+A) reverstr
+B) strrev
+C) reversit
+D) backward
+E) None of these
+Answer:  E
+
+28) To define a C-string that will store students' last names of up to 25 characters in length, which is an appropriate statement?
+A) char lastName[25];
+B) string lastName[25];
+C) char lastName[26];
+D) string lastName[24];
+E) None of these
+Answer:  C
+29) Which of the following lines of code defines an array of C-strings that will hold 49 characters and the null terminator?
+A) char [49];
+B) char str[50];
+C) char[50] str;
+D) character str[50];
+E) None of the above
+Answer:  B
+
+30) The statement:
+
+	char var1 =  tolower('A');
+
+will result in:
+A) var1 storing the character value 'A'.
+B) var1 storing the ASCII value for lower case 'a'.
+C) A is output to the monitor.
+D) a is output to the monitor.
+E) None of these
+Answer:  B
+
+10.2   True/False Questions
+
+1) True/False:  A test using the isupper function will return false if the argument is an uppercase character.
+Answer:  FALSE
+
+2) True/False:  The isdigit function will return a true if its argument is a digit between 0 and 9.
+Answer:  TRUE
+
+3) True/False:  When using the strcat function, you must be careful not to overwrite the bounds of an array.
+Answer:  TRUE
+
+4) True/False:  The C++ compiler performs strict array bounds checking when it encounters an array of characters.
+Answer:  FALSE
+
+5) True/False:  The itoa function is similar to atoi, but it works in reverse. 
+Answer:  TRUE
+
+6) True/False:  By being able to pass arrays as arguments, you can write your own functions for processing C-strings.
+Answer:  TRUE
+
+7) True/False:  The strlen function returns a C-string's length and adds one for \0.
+Answer:  FALSE
+
+8) True/False:  The C++ library provides functions for converting a string representation of a number to a numeric data type, and vice-versa.
+Answer:  TRUE
+9) True/False:  The ftoa function converts a floating-point value to an ASCII value.
+Answer:  FALSE
+
+10) True/False:  If a C-string that cannot be converted to a numeric value is passed to the atoi function, the function's behavior is undefined by C++.
+Answer:  TRUE
+
+11) True/False:  If an uppercase character is passed as an argument to toupper, the result will be an uppercase character.
+Answer:  TRUE
+
+12) True/False:  Although C++ provides ample library functions to handle numeric values, we must write all of our own functions to manipulate character values.
+Answer:  FALSE
+
+13) True/False:  You may use the <, >, <=, >=, ==, and != relational operators to compare string objects.
+Answer:  TRUE
+
+14) True/False:  C++ 11 introduces a function named to_string that converts a numeric value to a string object.  
+Answer:  TRUE
+
+15) True/False:  The string class's front and back member functions were introduced in C++ 11.
+Answer:  TRUE
