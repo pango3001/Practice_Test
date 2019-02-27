@@ -66,23 +66,17 @@ float game() {
 				}
 				
 				cout << "You have gotten " << score << " out of " << poss_score << " correct." << endl;;
-				
 				cout << '\n' << "Press the Enter key to continue...";
-				
 				cin.ignore();
 				cin.get();
 				cout << string(50, '\n');
-		
 			}
-
 			else
 				cout << line << endl;
-
 		}
 		perc_score = static_cast<float>(score) / static_cast<float>(poss_score) * 100;
 		myfile.close();
-	}
-	
+	}	
 	else cout << "Unable to open file";
 	return perc_score;
 }
@@ -97,9 +91,7 @@ void opener() {
 		myfile.close();
 	}
 	cout << '\n';
-
-	cin.get();
-	
+	cin.get();	
 }
 
 void finished(float score) {
@@ -115,7 +107,6 @@ void finished(float score) {
 	cout << '\n';
 	cout << "Your overall grade: " << fixed << setprecision(1) << score << "%" << endl;
 	cin.get();
-
 }
 
 string test_choice() {
@@ -132,8 +123,7 @@ string test_choice() {
 			cout << "Your only choices are 8, 9, 10, or 11" << endl;
             cout << "Chapter: ";
 		    cin >> choice;
-        }
-    
+        }    
         int choice1 = stoi (choice);
 		cout << endl;
 		switch (choice1) {
@@ -150,18 +140,7 @@ string test_choice() {
 			stop = true;
 			break;
         default: cout << "Your only choices are 8, 9, 10, or 11" << endl;
-		}
-		/*
-		if (choice >= 8 || choice <= 11)
-			stop = true;
-		else if (isalpha(choice)) {
-			cout << "That's not even a number!" << endl;
-			cout << "Your only choices are 8, 9, 10, or 11" << endl;
-		}
-		else
-			cout << "Your only choices are 8, 9, 10, or 11" << endl;
-			*/
-	
+        }	
     }
 	return c;
 }
